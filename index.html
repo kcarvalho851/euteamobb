@@ -129,6 +129,8 @@
     }
 
   function ligarWhatsApp() {
+    const numeroWhatsApp = "5531987654321"; // Insira o número no formato internacional
+    const mensagem = encodeURIComponent("Oi, amor! Tô com saudade de você! ❤️");
     const link = `https://wa.link/sfzfa3?text=${mensagem}`; // Atualize o link aqui
     location.href = link; // Abre o link na mesma aba (compatível com Safari)
   }
